@@ -1,0 +1,30 @@
+{
+  "name": "progate",
+  "version": "1.0.0",
+  "description": "Read me",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frankhn/progate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frankhn/progate/issues"
+  },
+  "homepage": "https://github.com/frankhn/progate#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.5.4",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.11.0"
+  }
+}
