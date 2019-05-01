@@ -4,25 +4,31 @@
   "description": "Read me",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js",
+    "engines": {
+      "node": "v10.15.1",
+      "npm": "6.4.1"
+    }
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/frankhn/progate.git"
+    "url": "git+https://github.com/frankhn/chat-app-with-web-sockets.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/frankhn/progate/issues"
+    "url": "https://github.com/frankhn/chat-app-with-web-sockets/issues"
   },
-  "homepage": "https://github.com/frankhn/progate#readme",
+  "homepage": "https://github.com/frankhn/chat-app-with-web-sockets#readme",
   "dependencies": {
-    "bcrypt": "^3.0.6",
+    "bcryptjs": "^2.4.3",
     "concurrently": "^4.1.0",
     "express": "^4.16.4",
     "jsonwebtoken": "^8.5.1",
     "moment": "^2.24.0",
     "mongoose": "^5.5.4",
+    "nodemon": "^1.18.11",
     "passport": "^0.4.0",
     "passport-jwt": "^4.0.0",
     "validator": "^10.11.0"
